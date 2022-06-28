@@ -1,0 +1,285 @@
+/*-----------pubPushkin---------------*/
+
+.pubPushkin {
+    margin-top: 72px;
+}
+
+.pubPushkin-Background {       
+    display: flex;
+    height: 364px;
+    background-image: url(pictures/photo.png);
+    background-size: cover;    
+    background-repeat: no-repeat;  
+    background-position: center center;
+    padding: 0 0 0 80px;      
+    align-items: center;    
+}
+
+.pubPushkin-Card {    
+    box-sizing: border-box;
+    width: 389px;
+    padding: 38px;      
+    background-color: rgb(255,255,255);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.pubPushkin-head {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0 0 62px 0;
+}
+
+.pubPushkin-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;    
+}
+
+.pubPushkin-time {    
+    box-sizing: border-box;
+    width: 100px;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-size: 12px;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 30px;    
+}
+
+.pubPushkin-navigation {
+    display: flex;    
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 32px 8px 29px 80px;    
+}
+
+.pubPushkin-navigation a {
+    color: #626262;
+    padding: 7px;    
+}
+
+.pubPushkin-navigation a:hover {
+    color: #327430;         
+}
+
+.navItem {        
+    margin-right: 40px;      
+}
+
+.pubPushkin-navigation > .desert {
+    margin: 0;
+}
+
+.menuButton {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #626262;    
+    margin: 20px auto;
+    padding: 0 5px;
+    width: 50px;       
+}
+
+.menuButton-rectangle {
+    height: 5px;
+    margin: 3px 0;    
+    background-color: #49A144;
+}
+
+.menuButton:hover {
+    cursor: pointer;
+}
+
+.menuButton:active {
+    max-height: 200px;
+}
+
+
+/*--------------head of dish----------------*/
+
+.menuHead {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 56px 0 0 80px;
+}
+
+hr {
+    display: none;
+    width: 50px;    
+    background-color: #757575;
+}
+
+
+/*--------------dishes----------------*/
+
+.dishes {
+    padding-right: 87px;
+    padding-left: 81px;
+}
+
+.dish {
+    display: flex;    
+    margin-top: 49px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dish:hover {
+    cursor: pointer;
+    background-color: rgba(216, 223, 222, 0.914);
+}
+
+.card1, .card2 {
+    margin-top: 32px;
+}
+
+.dishBox1 {    
+    display: flex;       
+    flex-wrap: wrap;
+    align-content: space-between;       
+    padding: 16px;    
+    flex-basis: 100%;
+}
+
+.dishBox1 span {
+    display: block;
+}
+
+.dishBox1-wrapper {
+    flex-basis: 100%;        
+}
+
+.dishBox1-head {      
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    max-width: 100%;        
+}
+
+.dishBox1-describe {
+    font-size: 13px;
+    color: #626262;  
+    margin-top: 4px;      
+}
+
+.dishBox1-price {    
+    font-size: 15px;         
+}
+
+.dishBox2 img {         
+    width: 170px;    
+}
+
+
+
+
+/*----------------responsible rules------------------*/
+
+
+@media screen and (max-width: 769px) {
+    .pubPushkin-Background {
+        background-image: url(pictures/photo2.png);
+        padding-left: 8px; 
+        padding-right: 8px;
+    }    
+    
+    .menuHead {        
+        margin-left: 8px;
+        margin-right: 8px;        
+    }
+
+    .dishes {
+        padding-left: 8px;
+        padding-right: 8px;
+    }    
+
+    .pubPushkin-navigation {
+        padding-left: 8px;     
+        box-shadow: none;  
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3); 
+    }
+
+    .dish {        
+        margin-top: 32px;        
+    }       
+}
+
+@media screen and (max-width: 700px) {
+    .navItem {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pubPushkin-navigation {
+        display: none;
+    }
+    
+    .menuButton {
+        display: flex;
+    }    
+
+    .dishBox1 {
+        padding-left: 0;
+        padding-top: 0;
+        padding-right: 0;    
+    }      
+}
+
+@media screen and (max-width: 376px) {
+    .pubPushkin-head {
+        font-size: 28px;
+        text-align: center;        
+    }      
+    
+    .dishBox2 img {
+        width: 102px;        
+    }  
+
+    .dishBox1-head {
+        font-size: 14px;
+    }    
+}
+
+@media screen and (max-width: 321px) {
+    .pubPushkin-Background {
+        background-image: url(pictures/photo3.png);    
+        height: 255px;    
+    }      
+    
+    .pubPushkin-head {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .pubPushkin-text {
+        display: block;
+        text-align: center;
+    }
+
+    .pubPushkin-time {margin: 16px auto 0 auto;}   
+
+    .pubPushkin-Card {
+        padding: 24px 30px;
+        margin-top: 180px;
+    }    
+
+    .menuButton {margin-top: 70px;}
+
+    .menuHead {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    hr {display: block;}
+
+    .dish {
+        margin-top: 16px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }  
+
+    .card1 {margin-top: 40px;}
+}
+

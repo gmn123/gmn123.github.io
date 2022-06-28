@@ -1,0 +1,376 @@
+.html {
+    background-color: black;
+}
+
+.page {
+    box-sizing: border-box;
+    max-width: 1124px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------------header---------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-right: 87px;
+    padding-left: 81px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+    position: fixed;
+    background-color: #fff;
+    box-sizing: border-box;
+    max-width: 1124px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*-------logo---------*/
+.effectLogo {    
+    margin-right: auto;    
+    padding: 10px 10px 10px 0;
+}
+
+.effectLogo:hover {
+    cursor: pointer;
+    padding-left: 10px;
+    background-color: rgba(216, 223, 222, 0.914);
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.logo-head {
+    width: 119.23px;
+    height: 12.31px;
+    margin-right: auto;
+}
+
+/*------button------*/
+.sign-in {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    width: 78px;
+    height: 40px;
+    margin: 16px;
+    background: none;
+    border: 2px solid #e0e0e0;
+}
+
+.sign-in:hover {
+    background-color: rgba(216, 223, 222, 0.914);
+    box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/*------basket-------*/
+.basket {
+    display: block;
+    width: 40px;
+    height: 72px;
+}
+
+.basket:hover {
+    background-color: rgba(216, 223, 222, 0.914);
+    cursor: pointer;
+}
+
+
+/*------------------------main-------------------------*/
+
+/*------search form-------*/
+.search {
+    padding-right: 87px;
+    padding-left: 81px;
+    margin-top: 72px;
+}
+
+.text-field {
+    width: 100%;
+    margin-top: 56px;
+    font-size: 16px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-color: rgb(98, 98, 98, 0.5);
+}
+
+::placeholder {
+    color: rgb(98, 98, 98, 0.5);
+}
+
+
+.head {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 56px;
+    padding-right: 87px;
+    padding-left: 81px;
+}
+
+/*------main content-------*/
+.main {
+    padding-right: 87px;
+    padding-left: 81px;
+}
+
+/*--------grid-----------*/
+.container {
+    padding: 0;
+}
+
+/*--------cards-----------*/
+.card {
+    background-color: rgb(117, 117, 117, 0.04);    
+}
+
+.card a:hover {
+    cursor: pointer;
+}
+
+.text-1 {
+    color: #1d1d1d;
+    font-size: 16px;
+}
+
+.text-2 {
+    color: #626262;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.text-3 {
+    color: #1d1d1d;
+    font-size: 13px;
+}
+
+
+/*--------------------------footer--------------------------------*/
+
+.footer {
+    margin-top: 80px;
+    padding: 0 87px 40px 81px;
+    background-color: #262626;
+}
+
+.footer-flex1 {
+    padding: 56px 0 40.31px 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(151, 151, 151, 0.4);
+}
+
+.logo-footer {
+    width: 190.77px;
+    height: 19.69px;
+}
+
+
+.footer-flex2 {
+    display: flex;
+    padding-bottom: 48px;
+}
+
+.footer-flex2-box1 {
+    margin-right: 97px;
+    padding-top: 32px;
+}
+
+.language {
+    width: 227px;
+    height: 40px;
+    background-color: #3b3b3b;
+    background-image: url(pictures/world.png);
+    background-repeat: no-repeat;
+    background-size: 15.72px 15.72px;
+    background-position: 16px center;
+    padding-left: 48px;
+    margin-bottom: 33px;
+    color: #fff;
+}
+
+.language:hover {
+    cursor: pointer;
+}
+
+.footer-text-1 {
+    color: #fff;
+}
+
+.footer-text-2 {
+    color: #49A144;
+}
+
+
+.socials {
+    margin-top: 17px;
+    font-size: 0;
+}
+
+.socials img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.socials img:hover {
+    cursor: pointer;
+}
+
+.footer-flex2-box2,
+.footer-flex2-box3 {
+    color: #fff;
+    padding-top: 18px;
+    font-size: 13px;
+}
+
+.footer-flex2-box2 {
+    margin-right: 128px;
+}
+
+.footer-flex2-box2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-flex2-box2 span {
+    display: block;
+    margin-top: 23px;
+}
+
+.footer-flex2-box3 span {
+    display: block;
+    margin-top: 23px;
+}
+
+.footer-flex2-box3 a {    
+    color: #fff;
+}
+
+.footer-flex3 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    border-top: 2px solid rgb(151, 151, 151, 0.4);
+    border-bottom: 2px solid rgb(151, 151, 151, 0.4);
+
+}
+
+.appleBox {
+    margin-right: 40.34px;
+}
+
+.apple {
+    width: 120.66px;
+    height: 40px;
+        
+}
+
+.google {
+    width: 135px;
+    height: 40px;
+}
+
+
+.footer-flex4 {
+    display: flex;
+    color: #fff;
+    font-size: 11px;
+    padding-top: 40px;
+}
+
+.footer-flex4 span {
+    display: block;
+}
+
+.footer-flex4 a {    
+    color: #fff;
+}
+
+.footer-flex4-text {
+    margin-left: 174px;
+    margin-right: 148px;
+}
+
+
+.gmn {
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    color: #49A144;
+    font-size: 11px;
+}
+
+/*.btn-up {
+    position: fixed;
+    width: 80px;
+    height: 80px;    
+    background-image: url(pictures/btn-up.png);
+    background-size: cover; 
+    top: 0;   
+    left: 0;
+    right: 0;  
+}    */
+
+/*-------------------------media----------------------------*/
+
+@media screen and (max-width: 769px) {
+
+    .header,
+    .search,
+    .main,
+    .footer,
+    .head {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .language {
+        width: 176px;
+        height: 40px;
+    }
+
+    .footer-flex4-text {
+        margin-left: 106px;
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-flex2 {
+        display: block;
+    }
+
+    .footer-flex4 {
+        display: block;
+    }
+
+    .footer-flex4-text {
+        margin: 24px 0 24px 0;
+    }    
+}
+
+@media screen and (max-width: 322px) {
+    .basket {
+        display: none;
+    }   
+    
+    .footer-flex2-box2 {
+        width: 100%;        
+    }
+}
